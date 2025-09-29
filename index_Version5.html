@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>bialykruk – Antykwariat z Książkami</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.svg" alt="Logo bialykruk" class="logo">
+        <h1>bialykruk</h1>
+        <nav>
+            <a href="#categories">Kategorie</a>
+            <a href="#books">Książki</a>
+            <a href="#order">Zamów</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>Witamy w antykwariacie bialykruk!</h2>
+            <p>Oferujemy szeroki wybór książek używanych, rzadkich i kolekcjonerskich. Znajdź literackie perełki w atrakcyjnych cenach.</p>
+        </section>
+        <section id="categories">
+            <h2>Kategorie książek</h2>
+            <ul class="categories-list">
+                <li>Powieści</li>
+                <li>Fantastyka</li>
+                <li>Literatura dziecięca</li>
+                <li>Biografie</li>
+                <li>Podróże</li>
+                <li>Historia</li>
+                <li>Nauka</li>
+                <li>Komiksy</li>
+                <li>Poezja</li>
+            </ul>
+        </section>
+        <section id="books">
+            <h2>Nasze książki</h2>
+            <div class="book-list">
+                <div class="book">
+                    <img src="book1.jpg" alt="Okładka książki 1">
+                    <h3>Lalka</h3>
+                    <p>Bolesław Prus</p>
+                    <span class="price">35 zł</span>
+                </div>
+                <div class="book">
+                    <img src="book2.jpg" alt="Okładka książki 2">
+                    <h3>Pan Tadeusz</h3>
+                    <p>Adam Mickiewicz</p>
+                    <span class="price">40 zł</span>
+                </div>
+                <div class="book">
+                    <img src="book3.jpg" alt="Okładka książki 3">
+                    <h3>Mały Książę</h3>
+                    <p>Antoine de Saint-Exupéry</p>
+                    <span class="price">25 zł</span>
+                </div>
+            </div>
+        </section>
+        <section id="order">
+            <h2>Zamów książkę</h2>
+            <form class="order-form">
+                <label for="book">Wybierz książkę:</label>
+                <select id="book" name="book" required>
+                    <option value="">-- wybierz --</option>
+                    <option value="Lalka">Lalka (Bolesław Prus)</option>
+                    <option value="Pan Tadeusz">Pan Tadeusz (Adam Mickiewicz)</option>
+                    <option value="Mały Książę">Mały Książę (Antoine de Saint-Exupéry)</option>
+                </select>
+                <label for="name">Imię i nazwisko:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required value="izarzadca@int.pl">
+                <label for="address">Adres do wysyłki:</label>
+                <textarea id="address" name="address" rows="3" required></textarea>
+                <button type="submit">Zamawiam</button>
+            </form>
+        </section>
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>Email: kontakt@bialykruk.pl</p>
+            <p>Telefon: +48 123 456 789</p>
+            <p>Adres: ul. Książkowa 1, 00-001 Warszawa</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 bialykruk – Antykwariat z Książkami</p>
+    </footer>
+</body>
+</html>
