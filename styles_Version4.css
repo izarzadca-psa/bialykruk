@@ -1,158 +1,53 @@
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    margin: 0;
-    background: #f9f6f2;
-    color: #222;
+  font-family: Georgia, serif;
+  background-color: #f4f1e9;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
+
 header {
-    background: #2f2f2f;
-    color: #fff;
-    padding: 1rem 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: #d8cfc0;
+  text-align: center;
+  padding: 2em 1em;
 }
-.logo {
-    display: inline-block;
-    vertical-align: middle;
-    height: 48px;
-    margin-right: 16px;
-    margin-bottom: 8px;
-}
+
 header h1 {
-    margin: 0;
-    font-size: 2.2rem;
-    letter-spacing: 2px;
+  font-size: 2.5em;
+  margin: 0;
 }
+
+header p {
+  font-style: italic;
+  margin: 0.5em 0;
+}
+
 nav {
-    margin-top: 0.5rem;
+  margin-top: 1em;
 }
+
 nav a {
-    color: #f1f1f1;
-    text-decoration: none;
-    margin: 0 1rem;
-    font-weight: bold;
+  margin: 0 1em;
+  text-decoration: none;
+  color: #5a4a3f;
 }
-nav a:hover {
-    text-decoration: underline;
-}
+
 main {
-    max-width: 900px;
-    margin: 2rem auto;
-    padding: 0 1rem;
+  padding: 2em;
 }
+
 section {
-    margin-bottom: 2.5rem;
+  margin-bottom: 2em;
 }
-.categories-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    list-style: none;
-    padding: 0;
-    margin: 1rem 0;
+
+.books ul {
+  list-style-type: square;
+  padding-left: 1em;
 }
-.categories-list li {
-    background: #e2c799;
-    color: #2f2f2f;
-    padding: 0.4rem 1.2rem;
-    border-radius: 20px;
-    font-weight: 500;
-    font-size: 1rem;
-    box-shadow: 0 1px 3px rgba(47,47,47,0.08);
-}
-.book-list {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-.book {
-    background: #fff7e6;
-    border: 1px solid #e2c799;
-    border-radius: 8px;
-    padding: 1rem;
-    width: 180px;
-    text-align: center;
-    box-shadow: 0 2px 8px rgba(47,47,47,0.07);
-}
-.book img {
-    width: 100px;
-    height: 140px;
-    object-fit: cover;
-    margin-bottom: 0.5rem;
-    border-radius: 4px;
-    border: 1px solid #e2c799;
-}
-.book h3 {
-    margin: 0.5rem 0 0.2rem 0;
-    font-size: 1.1rem;
-}
-.book p {
-    margin: 0;
-    font-size: 0.95rem;
-    color: #2f2f2f;
-}
-.price {
-    display: block;
-    margin-top: 0.5rem;
-    color: #ba7d27;
-    font-weight: bold;
-    font-size: 1.05rem;
-}
-.order-form {
-    background: #fff7e6;
-    border: 1px solid #e2c799;
-    border-radius: 8px;
-    padding: 1.2rem;
-    max-width: 400px;
-    margin: 1rem auto 0 auto;
-    box-shadow: 0 2px 8px rgba(47,47,47,0.06);
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
-}
-.order-form label {
-    font-weight: 500;
-    margin-bottom: 0.2rem;
-}
-.order-form input,
-.order-form select,
-.order-form textarea {
-    padding: 0.5rem;
-    border: 1px solid #e2c799;
-    border-radius: 5px;
-    font-size: 1rem;
-    background: #fff;
-}
-.order-form button {
-    background: #2f2f2f;
-    color: #fff;
-    border: none;
-    padding: 0.7rem 1.5rem;
-    border-radius: 6px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    cursor: pointer;
-    margin-top: 0.8rem;
-}
-.order-form button:hover {
-    background: #ba7d27;
-    color: #2f2f2f;
-}
+
 footer {
-    background: #2f2f2f;
-    color: #fff;
-    text-align: center;
-    padding: 0.7rem;
-}
-@media (min-width: 600px) {
-    header {
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        gap: 24px;
-    }
-    .logo {
-        margin-bottom: 0;
-    }
+  background-color: #d8cfc0;
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
 }
